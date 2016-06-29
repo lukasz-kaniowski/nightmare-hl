@@ -1,6 +1,6 @@
 # nightmare-hl
 
-> Nightmare scrapper for http://www.hl.co.uk/
+> [Nightmare](http://www.nightmarejs.org/) scrapper for http://www.hl.co.uk/
 
 Let you scrape value of your HL portfolio
 
