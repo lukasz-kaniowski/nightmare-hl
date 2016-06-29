@@ -1,0 +1,29 @@
+{
+  "name": "nightmare-hl",
+  "version": "1.0.0",
+  "description": "Nightmare scrapper for http://www.hl.co.uk/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-kaniowski/nightmare-hl.git"
+  },
+  "keywords": [
+    "nightmarejs",
+    "hl",
+    "hargreaves",
+    "lansdown",
+    "scrapper"
+  ],
+  "author": "lukasz.kaniowski@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukasz-kaniowski/nightmare-hl/issues"
+  },
+  "homepage": "https://github.com/lukasz-kaniowski/nightmare-hl#readme",
+  "dependencies": {
+    "nightmare": "^2.5.2"
+  }
+}
