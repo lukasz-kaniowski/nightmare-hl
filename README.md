@@ -1,6 +1,6 @@
 # nightmare-hl
 
-> [Nightmare](http://www.nightmarejs.org/) scrapper for http://www.hl.co.uk/
+> [Nightmare](http://www.nightmarejs.org/) plugin for scrapping http://www.hl.co.uk/
 
 Let you scrape value of your HL portfolio
 
@@ -15,14 +15,18 @@ $ npm i nightmare-hl --save
 ## Usage
 
 ```js
-const NightmareHl = require('nightmare-hl');
+const hl = require('nightmare-hl')
+const nightmare = new Nightmare()
+
 const password = 'yourPassword'
 const username = 'yourUsername'
 const dateOfBirth = '220480'
 
-new NightmareHl(username, dateOfBirth, password)
-  .scrape()
-  .then(sum => console.log(sum))
+nightmare
+  .use(hl.login(username, dob, password))
+  .use(hl.getOverallValue())
+  .end()
+  .then(result => console.log(result))
 ```
 
 ## Contributing
